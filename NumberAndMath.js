@@ -20,9 +20,12 @@
 // console.log(Math.floor(4.9999999));
 // console.log(Math.min(4,3,6,7,8,9));
 
-console.log(Math.random());
+//console.log(Math.random());
 
 const max = 20
 const min = 12
 
-console.log(Math.floor(Math.random() * (max - min + 1))+min)
+//console.log(Math.floor(Math.random() * (max - min + 1))+min)
+
+console.log(Math.floor(Math.random()*(25+1))+25); // give random number between 25 to 50
+
