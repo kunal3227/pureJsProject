@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <style>
+        body{
+            display: grid;
+            place-items: center;
+            background-color: rgb(73, 112, 151);
+            color: white;
+        }
+        h1{
+            font-size:45px;
+        }
+        input{
+            width: 420px;
+            height: 40px;
+            font-size: larger;
+            margin-bottom: 10px;
+            background-color: rgb(122, 143, 128);
+            color: rgb(255, 255, 255);
+            border-radius: 2px;
+            padding: 2px;
+            border:1px solid black;
+        }
+        h2{
+            font-size: 35px;
+        }
+        button{
+            width: 200px;
+            height: 40px;
+            background-color: rgb(98, 169, 98);
+            font-size: larger;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+        }
+        .textBoard{
+            margin-top: 150px;
+            font-size: 25px;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculate My BMI</h1>
+    <div class="main">
+        <h2 class="result">Result: 0</h2>
+        <p class="textBoard">Enter your Weight in Kg:</p>
+        <input type="text"></br>
+        <button type="submit">NEXT</button>
+    </div>
+</body>
+<script src="logic.js"></script>
+</html>
