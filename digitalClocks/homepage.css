@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(35, 35, 35);
+    color: #fff;
+    display: grid;
+    place-items: center;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.clockDisplay {
+    width: 400px;
+    height: 200px;
+    background-color: orange;
+    margin-top: 40px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 2px rgb(238, 156, 5);
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+
+    font-size: 70px;
+    align-content: center;
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 14px black;
+}

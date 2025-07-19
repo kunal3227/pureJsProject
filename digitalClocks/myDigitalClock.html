@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Clock</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Live Digital Clock</h1>
+        <div class="clockDisplay"></div>
+    </div>
+</body>
+<script>
+    const clockDisplay = document.querySelector('.clockDisplay')
+    // console.log(clockDisplay);
+    
+    setInterval(function(){
+        // console.log(date.toLocaleTimeString());
+        let date = new Date()
+        clockDisplay.innerHTML = date.toLocaleTimeString()
+    },1000)
+    
+</script>
+</html>
